@@ -1,40 +1,50 @@
 # 🧠 NLP & LLMs Notebook
 
 ## 📝 Notebook Overview
-This notebook is built for exploring **Large Language Models (LLMs)** and **Natural Language Processing (NLP)** applications. It leverages both **open-source** and **proprietary LLMs** to develop **Generative AI (GenAI) and NLP-driven solutions** across diverse fields such as **healthcare, business, finance, and human resources**.
+This notebook is made to explore how we can use **LLMs (Large Language Models)** and **NLP (Natural Language Processing)** to build smart tools. It uses both **open-source** and **paid AI models** to create **GenAI (Generative AI)** solutions for areas like **healthcare, business, finance,** and **human resources**.
 
 ## 📌 Notebook Implemented
-- Website Summarizer with OpenAI API and Llama.
-- Funny Notebook where 3 AIs compete (GPT, Claude, and Gemini) and vote for their leader!
-- AI-powered Brochure Generator using OpenAI API (GPT) or Ollama (llama, deepseek, qwen, mistral, ...)
-- AI-driven tool that provides concise, structured explanations for technical questions and code snippets.
-- Funny Notebook where three-bot chat system (GPT, Claude and Deepseek) engage in conversations with distinct personalities.
-- AI agent that analyzes weather conditions and suggests activities and events based on location.
+- 🌐 A **website summarizer** that uses OpenAI and LLaMA to quickly give you the key points from any link.
+- 🧾 A **smart brochure generator** powered by GPT or Ollama models (like LLaMA, Deepseek, Qwen, Mistral...) to create clean, AI-crafted content.
+- 💡 A helpful **AI assistant** that explains tricky tech questions and code in a simple, structured way.  
+- 🤖 A fun notebook where **GPT, Claude, and Deepseek** have hilarious and insightful conversations with distinct personalities.  
+- 🌤️ A weather-aware **AI agent** that suggests fun activities and events based on where you are.  
+- 🧪 A powerful tool for **generating synthetic datasets** —great for researchers, data scientists, and developers.  
+- 🧠 A **smart internal assistant** built for Insurellm employees, using **RAG** to give fast, accurate answers to insurance-related questions.
 
 
 ## 🔑 Key Features
-- Real-Time Web Scraping
 - Text and Document Processing
-- Open-source models (e.g., Mistral, LLaMA, BERT)
-- Closed-source models (e.g., GPT-4o, Claude 3, Gemini 1.5)
+- Open-source / Closed-source Models
 - Prompt Engineering
-- Tools
+- Built-in Tools
 - Gradio UI
-
+- Advanced RAG Techniques
 
 ## 📚 Prerequisites
 - Software:
-    - Python 3.x
-    - Jupyter Lab
-    - Anaconda for environment management
-    - Ollama for running local LLMs
+    - **Python 3.x**
+    - **Jupyter Lab** / **Google Colab (GPU)**
+    - **Anaconda** for environment management
+    - **Ollama** for running local LLMs
 
 - Skills:
-    - Advanced knowledge in LLMs & GenAI, particularly for text-based NLP tasks
-    - Familiarity with deep learning frameworks (e.g., TensorFlow, PyTorch)
-    - Experience with API-based LLMs (e.g., OpenAI API, Hugging Face Transformers)
-    - Proficiency in REST API integration (endpoints and Swagger).
+    - Advanced knowledge of **LLMs (Large Language Models)**  
+    - Familiarity with deep learning frameworks like **TensorFlow** and **PyTorch**  
+    - Experience using **API-based LLMs**, such as the **OpenAI API** and **Hugging Face Transformers**  
+    - Proficiency in **REST API integration**, including working with **endpoints** and tools like **Swagger**
+
 	
+## 📓 Notebook Overview
+Each notebook starts with a friendly intro that helps you get up to speed quickly:
+- 🎯 A short **description** of what the notebook does and **what it aims to solve** or demonstrate.
+
+- 🧰 Clearly **listed LLMs** or **frameworks** involved (e.g., OpenAI, Hugging Face, Ollama, Deepseek...).
+
+- 🔐 Any needed **API keys** or authentication steps (e.g., OpenAI, Hugging Face, etc.) are clearly indicated. If a **GPU is required** to run the notebook efficiently, it will also be specified.
+
+- ⚙️ Key parameters you can **customize** are clearly listed to help you adapt the notebook to your specific needs.
+
 
 ## 🛠️ Setup
 
@@ -49,7 +59,7 @@ This notebook is built for exploring **Large Language Models (LLMs)** and **Natu
     ```sh
     conda env create -f environment.yml
     ```
-    This will install all required dependencies inside the llms environment.
+    This will install all required dependencies inside the llms environment in your machine.
 
 4. Activate the Environment
     ```sh
