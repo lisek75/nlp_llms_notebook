@@ -18,6 +18,7 @@ This notebook is made to explore how we can use **LLMs (Large Language Models)**
 - Open-source / Closed-source Models
 - Prompt Engineering
 - Built-in Tools
+- AI Assistant / AI Agent
 - Gradio UI
 - Advanced RAG Techniques
 
