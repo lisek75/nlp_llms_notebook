@@ -6,3 +6,10 @@
 
 # Ignore Chroma folder
 /chroma/
+
+# ignore all __pycache__ folders
+**/__pycache__/
+
+# Ignore dataset files
+*.pkl
+*.jsonl
