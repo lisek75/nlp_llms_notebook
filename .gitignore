@@ -4,8 +4,15 @@
 # Ignore the .env file containing environment variables
 .env
 
-# Ignore Chroma folder
-/chroma/
+# Ignore Vector DB folder
+/vector_db/
+
+# ignore all __pycache__ folders
+**/__pycache__/
+
+# Ignore dataset files
+*.pkl
+*.jsonl
 
 # ignore all __pycache__ folders
 **/__pycache__/
