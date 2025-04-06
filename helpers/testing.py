@@ -31,12 +31,12 @@ class Tester:
     def run_datapoint(self, i):
         datapoint = self.data[i]
         guess = self.predictor(datapoint)
-        truth = datapoint.price
+        truth = datapoint["price"]
         error = abs(guess - truth)
         log_error = math.log(truth+1) - math.log(guess+1)
         sle = log_error ** 2
         color = self.color_for(error, truth)
-        title = datapoint.title if len(datapoint.title) <= 40 else datapoint.title[:40]+"..."
+        title = datapoint["text"][:40] + "..." if len(datapoint["text"]) > 40 else datapoint["text"]
         self.guesses.append(guess)
         self.truths.append(truth)
         self.errors.append(error)
