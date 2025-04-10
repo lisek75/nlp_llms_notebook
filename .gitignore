@@ -4,7 +4,7 @@
 # Ignore the .env file containing environment variables
 .env
 
-# Ignore Vector DB folder
+# Ignore vector_db folder
 /vector_db/
 
 # ignore all __pycache__ folders
