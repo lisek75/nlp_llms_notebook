@@ -11,6 +11,10 @@ This notebook is made to explore how we can use **LLMs (Large Language Models)**
 - 🌤️ A weather-aware **AI agent** that suggests fun activities and events based on where you are.  
 - 🧪 A powerful tool for **generating synthetic datasets** —great for researchers, data scientists, and developers.  
 - 🧠 A **smart internal assistant** built for Insurellm employees, using **RAG** to give fast, accurate answers to insurance-related questions.
+- 📦 A complete price prediction pipeline using both traditional ML and frontier LLMs — with data curation, benchmarking, and fine-tuning.
+    - 🧹 Part 1 – Data Curation & Preprocessing: Aggregate, clean, analyze, and balance product data to create high-quality train/test sets.
+    - ⚔️ Part 2 – Model Benchmarking: Compare traditional ML (SVR, LR, XGBoost) with LLMs (GPT-4o, Claude, LLaMA, Deepseek...) and a human baseline.
+    - 🔧 Part 3 – Fine-Tuning GPT-4o Mini: Train a smaller frontier model on the curated data and evaluate performance against zero-shot results.
 
 
 ## 🔑 Key Features
@@ -21,6 +25,8 @@ This notebook is made to explore how we can use **LLMs (Large Language Models)**
 - AI Assistant / AI Agent
 - Gradio UI
 - Advanced RAG Techniques
+- Data Curation
+- Fine Tune Frontier Models
 
 ## 📚 Prerequisites
 - Software:
@@ -54,7 +60,7 @@ Each notebook starts with a friendly intro that helps you get up to speed quickl
     git clone https://github.com/lisek75/nlp_llms_notebook.git
     cd nlp_llms_notebook
     ```
-2. Rename ``.the_secret_recipe`` to ``.env`` and add your API keys (OpenAI API, Anthropic API, Deepseek API) to unlock the magic! ✨🔑
+2. Rename ``.the_secret_recipe`` to ``.env`` and add your API keys to unlock the magic! ✨🔑
 
 3. Install the Conda Environment:
     ```sh
